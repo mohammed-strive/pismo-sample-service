@@ -1,6 +1,10 @@
 # Pismo Service
 This is an API service written in Go, with a Postgres backend. The [pismo service file](pismo_service.yml) has the service description. There is a [docker compose file](docker_compose.yml) to instantiate and run the service. There are migration files that will run as part of the service start. The service is written as a typical api service in go with controllers, services and repository layers.
 
+## Prerequisites
+1. Golang [link](https://go.dev)
+2. Docker and Docker compose [link](https://docs.docker.com/get-started/)
+
 ## Installation
 ### Local
 1. Clone the repo.
